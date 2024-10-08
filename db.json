@@ -1,0 +1,489 @@
+{
+    "invoice": {
+        "totalPaidCount": "1,289",
+        "totalPaidAmount": "$4,120,102",
+        "totalOverdueCount": "13",
+        "totalOverdueAmount": "$23,000",
+        "totalDraftCount": "08",
+        "totalDraftAmount": "$12,200",
+        "totalUnpaidCount": "06",
+        "totalUnpaidAmount": "$87,102",
+        "invoiceActivities": [
+            {
+                "id": 1,
+                "activityTitle": "Invoice creation",
+                "date": "Yesterday, 12:05 PM",
+                "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+            },
+            {
+                "id": 2,
+                "activityTitle": "Invoice creation",
+                "date": "Yesterday, 12:05 PM",
+                "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+            },
+            {
+                "id": 3,
+                "activityTitle": "Invoice creation",
+                "date": "Yesterday, 12:05 PM",
+                "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+            }
+        ],
+        "invoices": [
+            {
+                "id": 1,
+                "paymentType": "partial payment",
+                "paymentDate": "today - 27th November, 2022",
+                "senderDetails": {
+                    "senderName": "Fabulous Enterprise",
+                    "senderPhone": "+3869892713115",
+                    "senderAddress": "1331 Hart Ridge Road 48436 Gaines, MI",
+                    "senderEmail": "info@fabulousenterise.co"
+                },
+                "customerDetails": {
+                    "customerName": "Olaniyi Ojo Adewale",
+                    "customerPhone": "+3869892713115",
+                    "customerEmail": "info@fabulousenterise.co"
+                },
+                "invoiceDetails": {
+                    "invoiceNo": "1023902390",
+                    "issueDate": "March 30th, 2023",
+                    "dueDate": "May 19th, 2023",
+                    "billingCurrency": "USD ($)",
+                    "invoiceName": "Invoice - 1023494 - 2304"
+                },
+                "itemDetails": {
+                    "subTotal": "$6,697,200.00",
+                    "discount": "$167,430.00",
+                    "discountPercentage": "2%",
+                    "totalAmountDue": "$6,529,770.00",
+                    "items": [
+                        {
+                            "id": 1,
+                            "itemTitle": "Email Marketing",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "10",
+                            "itemDiscount": "$1,500",
+                            "itemPrice": "$15,000.00"
+                        },
+                        {
+                            "id": 2,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 3,
+                            "itemTitle": "Graphic design for emails",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "7",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 4,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        }
+                    ]
+                },
+                "paymentInformation": {
+                    "accountName": "Olawale Samuel",
+                    "accountNumber": "1023902390",
+                    "achRoutingNo": "1023902390",
+                    "bankName": "UBA",
+                    "bankAddress": "1331 Hart Ridge Road 48436 Gaines, MI"
+                },
+                "note": "Thank you for your patronage",
+                "invoiceActivities": [
+                    {
+                        "id": 1,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 2,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 3,
+                        "activityTitle": "Payment Confirmed",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "paymentType": "paid",
+                "paymentDate": "today - 27th November, 2022",
+                "senderDetails": {
+                    "senderName": "Fabulous Enterprise",
+                    "senderPhone": "+3869892713115",
+                    "senderAddress": "1331 Hart Ridge Road 48436 Gaines, MI",
+                    "senderEmail": "info@fabulousenterise.co"
+                },
+                "customerDetails": {
+                    "customerName": "Olaniyi Ojo Adewale",
+                    "customerPhone": "+3869892713115",
+                    "customerEmail": "info@fabulousenterise.co"
+                },
+                "invoiceDetails": {
+                    "invoiceNo": "1023902390",
+                    "issueDate": "March 30th, 2023",
+                    "dueDate": "May 19th, 2023",
+                    "billingCurrency": "USD ($)",
+                    "invoiceName": "Invoice - 1023494 - 2304"
+                },
+                "itemDetails": {
+                    "subTotal": "$6,697,200.00",
+                    "discount": "$167,430.00",
+                    "discountPercentage": "2%",
+                    "totalAmountDue": "$6,529,770.00",
+                    "items": [
+                        {
+                            "id": 1,
+                            "itemTitle": "Email Marketing",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "10",
+                            "itemDiscount": "$1,500",
+                            "itemPrice": "$15,000.00"
+                        },
+                        {
+                            "id": 2,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 3,
+                            "itemTitle": "Graphic design for emails",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "7",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 4,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        }
+                    ]
+                },
+                "paymentInformation": {
+                    "accountName": "Olawale Samuel",
+                    "accountNumber": "1023902390",
+                    "achRoutingNo": "1023902390",
+                    "bankName": "UBA",
+                    "bankAddress": "1331 Hart Ridge Road 48436 Gaines, MI"
+                },
+                "note": "Thank you for your patronage",
+                "invoiceActivities": [
+                    {
+                        "id": 1,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 2,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 3,
+                        "activityTitle": "Payment Confirmed",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "paymentType": "overdue",
+                "paymentDate": "8th december, 2022",
+                "senderDetails": {
+                    "senderName": "Fabulous Enterprise",
+                    "senderPhone": "+3869892713115",
+                    "senderAddress": "1331 Hart Ridge Road 48436 Gaines, MI",
+                    "senderEmail": "info@fabulousenterise.co"
+                },
+                "customerDetails": {
+                    "customerName": "Olaniyi Ojo Adewale",
+                    "customerPhone": "+3869892713115",
+                    "customerEmail": "info@fabulousenterise.co"
+                },
+                "invoiceDetails": {
+                    "invoiceNo": "1023902390",
+                    "issueDate": "March 30th, 2023",
+                    "dueDate": "May 19th, 2023",
+                    "billingCurrency": "USD ($)",
+                    "invoiceName": "Invoice - 1023494 - 2304"
+                },
+                "itemDetails": {
+                    "subTotal": "$6,697,200.00",
+                    "discount": "$167,430.00",
+                    "discountPercentage": "2%",
+                    "totalAmountDue": "$6,529,770.00",
+                    "items": [
+                        {
+                            "id": 1,
+                            "itemTitle": "Email Marketing",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "10",
+                            "itemDiscount": "$1,500",
+                            "itemPrice": "$15,000.00"
+                        },
+                        {
+                            "id": 2,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 3,
+                            "itemTitle": "Graphic design for emails",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "7",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 4,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        }
+                    ]
+                },
+                "paymentInformation": {
+                    "accountName": "Olawale Samuel",
+                    "accountNumber": "1023902390",
+                    "achRoutingNo": "1023902390",
+                    "bankName": "UBA",
+                    "bankAddress": "1331 Hart Ridge Road 48436 Gaines, MI"
+                },
+                "note": "Thank you for your patronage",
+                "invoiceActivities": [
+                    {
+                        "id": 1,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 2,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 3,
+                        "activityTitle": "Payment Confirmed",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    }
+                ]
+            },
+            {
+                "id":4,
+                "paymentType": "draft",
+                "paymentDate": "8th december, 2022",
+                "senderDetails": {
+                    "senderName": "Fabulous Enterprise",
+                    "senderPhone": "+3869892713115",
+                    "senderAddress": "1331 Hart Ridge Road 48436 Gaines, MI",
+                    "senderEmail": "info@fabulousenterise.co"
+                },
+                "customerDetails": {
+                    "customerName": "Olaniyi Ojo Adewale",
+                    "customerPhone": "+3869892713115",
+                    "customerEmail": "info@fabulousenterise.co"
+                },
+                "invoiceDetails": {
+                    "invoiceNo": "1023902390",
+                    "issueDate": "March 30th, 2023",
+                    "dueDate": "May 19th, 2023",
+                    "billingCurrency": "USD ($)",
+                    "invoiceName": "Invoice - 1023494 - 2304"
+                },
+                "itemDetails": {
+                    "subTotal": "$6,697,200.00",
+                    "discount": "$167,430.00",
+                    "discountPercentage": "2%",
+                    "totalAmountDue": "$6,529,770.00",
+                    "items": [
+                        {
+                            "id": 1,
+                            "itemTitle": "Email Marketing",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "10",
+                            "itemDiscount": "$1,500",
+                            "itemPrice": "$15,000.00"
+                        },
+                        {
+                            "id": 2,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 3,
+                            "itemTitle": "Graphic design for emails",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "7",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 4,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        }
+                    ]
+                },
+                "paymentInformation": {
+                    "accountName": "Olawale Samuel",
+                    "accountNumber": "1023902390",
+                    "achRoutingNo": "1023902390",
+                    "bankName": "UBA",
+                    "bankAddress": "1331 Hart Ridge Road 48436 Gaines, MI"
+                },
+                "note": "Thank you for your patronage",
+                "invoiceActivities": [
+                    {
+                        "id": 1,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 2,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 3,
+                        "activityTitle": "Payment Confirmed",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "paymentType": "pending payment",
+                "paymentDate": "8th december, 2022",
+                "senderDetails": {
+                    "senderName": "Fabulous Enterprise",
+                    "senderPhone": "+3869892713115",
+                    "senderAddress": "1331 Hart Ridge Road 48436 Gaines, MI",
+                    "senderEmail": "info@fabulousenterise.co"
+                },
+                "customerDetails": {
+                    "customerName": "Olaniyi Ojo Adewale",
+                    "customerPhone": "+3869892713115",
+                    "customerEmail": "info@fabulousenterise.co"
+                },
+                "invoiceDetails": {
+                    "invoiceNo": "1023902390",
+                    "issueDate": "March 30th, 2023",
+                    "dueDate": "May 19th, 2023",
+                    "billingCurrency": "USD ($)",
+                    "invoiceName": "Invoice - 1023494 - 2304"
+                },
+                "itemDetails": {
+                    "subTotal": "$6,697,200.00",
+                    "discount": "$167,430.00",
+                    "discountPercentage": "2%",
+                    "totalAmountDue": "$6,529,770.00",
+                    "items": [
+                        {
+                            "id": 1,
+                            "itemTitle": "Email Marketing",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "10",
+                            "itemDiscount": "$1,500",
+                            "itemPrice": "$15,000.00"
+                        },
+                        {
+                            "id": 2,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 3,
+                            "itemTitle": "Graphic design for emails",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "7",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        },
+                        {
+                            "id": 4,
+                            "itemTitle": "Video looping effect",
+                            "itemDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium",
+                            "itemNumber": "6",
+                            "itemDiscount": "$1,110,500",
+                            "itemPrice": "$6,663,000.00"
+                        }
+                    ]
+                },
+                "paymentInformation": {
+                    "accountName": "Olawale Samuel",
+                    "accountNumber": "1023902390",
+                    "achRoutingNo": "1023902390",
+                    "bankName": "UBA",
+                    "bankAddress": "1331 Hart Ridge Road 48436 Gaines, MI"
+                },
+                "note": "Thank you for your patronage",
+                "invoiceActivities": [
+                    {
+                        "id": 1,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 2,
+                        "activityTitle": "You",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    },
+                    {
+                        "id": 3,
+                        "activityTitle": "Payment Confirmed",
+                        "date": "Yesterday, 12:05 PM",
+                        "activityDetails": "Created invoice 00239434/Olaniyi Ojo Adewale"
+                    }
+                ]
+            }
+        ]
+    }
+}
