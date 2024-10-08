@@ -14,25 +14,23 @@ const useFetch = (url: string): UseFetchResult => {
 
     useEffect(() => {
         setIsPending(true);
-        setTimeout(() => {
-            fetch(url)
-                .then((res) => {
-                    if (!res.ok) {
-                        throw Error('Error fetching data');
-                    }
-                    return res.json();
-                })
-                .then((data) => {
-                    setData(data);
-                    setIsPending(false);
-                    setError(null);
-                })
-                .catch((err) => {
-                    setIsPending(false);
-                    setError(err.message);
-                    toast.error(err.message);
-                });
-        }, 1000);
+        fetch(url)
+            .then((res) => {
+                if (!res.ok) {
+                    throw Error('Error fetching data');
+                }
+                return res.json();
+            })
+            .then((data) => {
+                setData(data);
+                setIsPending(false);
+                setError(null);
+            })
+            .catch((err) => {
+                setIsPending(false);
+                setError(err.message);
+                toast.error(err.message);
+            });
     }, [url]);
 
     return { data, isPending, error };
