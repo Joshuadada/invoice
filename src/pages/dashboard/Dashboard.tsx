@@ -5,7 +5,7 @@ import InvoiceIcon from "../../assets/icons/invoice-icon.svg"
 import BeneficiaryIcon from "../../assets/icons/beneficiary-icon.svg"
 import HelpCenterIcon from "../../assets/icons/help-center-icon.svg"
 import SettingsIcon from "../../assets/icons/settings-icon.svg"
-import { Outlet } from "react-router-dom"
+import { Navigate, Outlet } from "react-router-dom"
 import { createContext, useState } from "react"
 
 export const SidebarContext = createContext<any>(null);
@@ -63,11 +63,17 @@ const Dashboard = () => {
         }
     ]
 
+    const isAuthenticated = localStorage.getItem('login-credential')
+
     const [sidebarState, setSidebarState] = useState(false);
 
     const handleSidebarState = (data: boolean) => {
         setSidebarState(data);
     };
+
+    if (!isAuthenticated) {
+        return <Navigate to="/" replace />;
+      }
 
     return (
         <SidebarContext.Provider value={{ handleSidebarState }}>

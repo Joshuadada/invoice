@@ -16,7 +16,7 @@ type Properties = {
 
 const Sidebar = ({ className, navItems, active }: Properties) => {
     const { handleSidebarState } = useContext(SidebarContext);
-    
+
     return (
         <>
             {/* Large screen */}
