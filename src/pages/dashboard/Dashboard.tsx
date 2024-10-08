@@ -16,43 +16,50 @@ const Dashboard = () => {
             id: 1,
             imgSrc: HomeIcon,
             navText: 'Getting Started',
-            navUrl: ''
+            navUrl: '',
+            active: false
         },
         {
             id: 2,
             imgSrc: OverviewIcon,
             navText: 'Overview',
-            navUrl: ''
+            navUrl: '',
+            active: false
         },
         {
             id: 3,
             imgSrc: HomeIcon,
             navText: 'Accounts',
-            navUrl: ''
+            navUrl: '',
+            active: false
         },
         {
             id: 4,
             imgSrc: InvoiceIcon,
             navText: 'Invoice',
-            navUrl: ''
+            navUrl: '',
+            active: true
         },
         {
             id: 5,
             imgSrc: BeneficiaryIcon,
             navText: 'Beneficiary Management',
-            navUrl: ''
+            navUrl: '',
+            active: false
         },
         {
             id: 6,
             imgSrc: HelpCenterIcon,
             navText: 'Help Center',
-            navUrl: ''
+            navUrl: '',
+            active: false
         },
         {
             id: 7,
             imgSrc: SettingsIcon,
             navText: 'Settings',
-            navUrl: ''
+            navUrl: '',
+            active: false
         }
     ]
 
