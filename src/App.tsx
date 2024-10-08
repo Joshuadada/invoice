@@ -11,7 +11,7 @@ function App() {
           {/* <Route path="/" element={<Login />} /> */}
 
           {/* Edit Information */}
-          <Route path="main" element={<Dashboard />}>
+          <Route path="" element={<Dashboard />}>
             <Route index element={<Invoice />} />
           </Route>
 

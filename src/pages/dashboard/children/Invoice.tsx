@@ -23,7 +23,7 @@ const Invoice = () => {
         setModalData(data)
     }
 
-    const { data: invoice, isPending } = useFetch('http://localhost:3000/invoice')
+    const { data: invoice, isPending } = useFetch('https://invoice-yymk.onrender.com/invoice')
 
     if (isPending) return <Loader />
 
