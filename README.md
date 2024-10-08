@@ -14,7 +14,7 @@ This is a React project built using Vite, TypeScript, Tailwind CSS, and Flowbite
 
 ## Project Overview
 
-This project is an **Invoice Management System** that allows users to manage invoices, check payment statuses, view invoice details, and perform related activities. The frontend is built with React using TypeScript to ensure type safety, and Tailwind CSS with Flowbite to deliver a modern and clean UI.
+This project is an **Invoice Management System** that allows users to view invoice details, and perform related activities. The frontend is built with React using TypeScript to ensure type safety, and Tailwind CSS with Flowbite to deliver a modern and clean UI.
 
 ## Technologies Used
 
@@ -24,6 +24,7 @@ This project is an **Invoice Management System** that allows users to manage inv
 - **Flowbite** (for pre-designed components and UI elements)
 - **React Router** (for routing between different pages)
 - **React Toastify** (for error and success notifications)
+- **JSON Server** (for backend). The json server backend was hosted on render (https://invoice-yymk.onrender.com/invoice)
   
 ## Setup and Installation
 
