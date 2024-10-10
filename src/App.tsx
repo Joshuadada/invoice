@@ -56,7 +56,7 @@ function App() {
 
   return (
     <GoogleOAuthProvider clientId="113580051962-mr2a9l9bf8b2fooq58plfc35f2ittri1.apps.googleusercontent.com">
-      <div className='max-w-[1412px] mx-auto bg-[#F5F6FA] h-screen overflow-y-hidden'>
+      <div className='max-w-[1412px] mx-auto bg-[#F5F6FA] h-screen overflow-y-hidden relative'>
         <RouterProvider router={router} />
       </div>
     </GoogleOAuthProvider>
