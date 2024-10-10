@@ -42,7 +42,7 @@ const Sidebar = ({ className, navItems, active, setPageTitle }: Properties) => {
             </div>
 
             {/* Small screen */}
-            <div className={`bg-white h-full shadow-md px-2 md:px-4 2xl:px-6 py-4 sm:py-6 md:py-8 2xl:py-10 transition-all absolute top-0 left-0 bottom-0 z-50 block lg:hidden ${className} ${active ? 'ml-0' : '-ml-72'}`}>
+            <div className={`bg-white shadow-md px-2 md:px-4 2xl:px-6 py-4 sm:py-6 md:py-8 2xl:py-10 transition-all absolute top-0 left-0 bottom-0 z-50 block lg:hidden ${className} ${active ? 'ml-0' : '-ml-72'}`}>
                 <div className='flex justify-end'>
                     <svg className="w-5 h-5 text-gray-800 cursor-pointer" onClick={() => handleSidebarState && handleSidebarState(false)} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18 17.94 6M18 18 6.06 6" />
