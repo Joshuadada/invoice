@@ -11,10 +11,11 @@ type Properties = {
         navText: string,
         navUrl: string,
     }>,
-    active: boolean
+    active: boolean,
+    setPageTitle: any
 }
 
-const Sidebar = ({ className, navItems, active }: Properties) => {
+const Sidebar = ({ className, navItems, active, setPageTitle }: Properties) => {
     const { handleSidebarState } = useContext(SidebarContext);
 
     return (
@@ -27,6 +28,7 @@ const Sidebar = ({ className, navItems, active }: Properties) => {
                     {navItems.map((navItem) => (
                         <NavLink
                             to={navItem.navUrl}
+                            onClick={() => setPageTitle(navItem.navText)}
                             key={navItem.id}
                             className={({ isActive, isPending }) => `px-1.5 py-1 md:px-2 2xl:px-4 md:py-2.5 2xl:py-3.5 flex items-center gap-2 cursor-pointer text-xs md:text-sm text-[#697598] hover:text-[#4F4F4F] border-4 md:border-8 border-white hover:border-[#F5F6FA] rounded-[2rem] ${isActive ? "!text-[#4F4F4F] !border-[#F5F6FA]" : ""} ${isPending ? "" : ""}`}
                         >
@@ -52,6 +54,7 @@ const Sidebar = ({ className, navItems, active }: Properties) => {
                     {navItems.map((navItem) => (
                         <NavLink
                             to={navItem.navUrl}
+                            onClick={() => setPageTitle(navItem.navText)}
                             key={navItem.id}
                             className={({ isActive, isPending }) => `px-1.5 py-1 md:px-2 2xl:px-4 md:py-2.5 2xl:py-3.5 flex items-center gap-2 cursor-pointer text-xs md:text-sm text-[#697598] hover:text-[#4F4F4F] border-4 md:border-8 border-white hover:border-[#F5F6FA] rounded-[2rem] ${isActive ? "!text-[#4F4F4F] !border-[#F5F6FA]" : ""} ${isPending ? "" : ""}`}
                         >

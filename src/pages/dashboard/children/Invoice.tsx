@@ -1,5 +1,4 @@
 import { Table } from "flowbite-react"
-import Header from "../../../components/Header"
 import IMoneyCard from "../../../components/IMoneyCard"
 import IActionCard from "../../../components/IActionCard"
 import MoneyImg from '../../../assets/images/money.svg'
@@ -11,8 +10,6 @@ import InvoiceModal from "../modals/InvoiceModal"
 import IButton from "../../../components/IButton"
 import useFetch from "../../../hooks/useFetch"
 import Loader from "../../../components/Loader"
-
-
 
 const Invoice = () => {
     const [openModal, setOpenModal] = useState(false);
@@ -29,8 +26,6 @@ const Invoice = () => {
 
     return (
         <>
-            <Header pageTitle="Invoice" />
-
             <div className="my-4 sm:my-6 md:my-8 lg:my-10">
                 <div className="flex items-center justify-between flex-wrap gap-4 md:gap-6 lg:gap-8">
                     <h4 className="font-medium text-[#1F1F23] text-base sm:text-xl md:text-2xl lg:text-3xl">Invoice</h4>

@@ -7,6 +7,7 @@ import HelpCenterIcon from "../../assets/icons/help-center-icon.svg"
 import SettingsIcon from "../../assets/icons/settings-icon.svg"
 import { Outlet } from "react-router-dom"
 import { createContext, useState } from "react"
+import Header from "../../components/Header"
 
 export const SidebarContext = createContext<any>(null);
 
@@ -56,17 +57,33 @@ const Dashboard = () => {
         }
     ]
 
+    const pathName: string = location.pathname
+
+    const currentPage = (): string => {
+        if(pathName.includes('getting-started')) return 'Getting Started'
+        if(pathName.includes('overview')) return '/Overview'
+        if(pathName.includes('accounts')) return 'Accounts'
+        if(pathName.includes('invoice')) return 'Invoice'
+        if(pathName.includes('beneficiary-management')) return 'Beneficiary Management'
+        if(pathName.includes('help-center')) return 'Help Center'
+        if(pathName.includes('settings')) return 'Settings'
+        return ''
+    }
+
     const [sidebarState, setSidebarState] = useState(false);
+
+    const [pageTitle, setPageTitle] = useState(currentPage())
 
     const handleSidebarState = (data: boolean) => {
         setSidebarState(data);
     };
-
+    
     return (
         <SidebarContext.Provider value={{ handleSidebarState }}>
             <div className="flex h-full shadow-md">
-                <div><Sidebar active={sidebarState} className="w-72" navItems={navItems} /></div>
+                <div><Sidebar setPageTitle={setPageTitle} active={sidebarState} className="w-72" navItems={navItems} /></div>
                 <div className="flex-1 px-4 sm-px-6 md:px-8 lg:px-10 overflow-auto">
+                    <Header pageTitle={pageTitle} />
                     <Outlet />
                 </div>
             </div>
