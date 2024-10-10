@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import './App.css'
 import { Dashboard, Invoice, Login, NotFound } from '.'
 import { GoogleOAuthProvider } from '@react-oauth/google'
@@ -14,6 +14,10 @@ function App() {
       path: 'main',
       element: <Dashboard />,
       children: [
+        {
+          path: "",
+          element: <Navigate to="getting-started" replace={true} />
+        },
         {
           path: 'getting-started',
           element: <h3>Getting started works!</h3>
