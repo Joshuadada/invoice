@@ -67,7 +67,7 @@ const Dashboard = () => {
         if(pathName.includes('beneficiary-management')) return 'Beneficiary Management'
         if(pathName.includes('help-center')) return 'Help Center'
         if(pathName.includes('settings')) return 'Settings'
-        return ''
+        return 'Getting Started'
     }
 
     const [sidebarState, setSidebarState] = useState(false);
@@ -77,7 +77,7 @@ const Dashboard = () => {
     const handleSidebarState = (data: boolean) => {
         setSidebarState(data);
     };
-    
+
     return (
         <SidebarContext.Provider value={{ handleSidebarState }}>
             <div className="flex h-full shadow-md">
