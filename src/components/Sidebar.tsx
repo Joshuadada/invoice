@@ -1,6 +1,7 @@
 import { useContext } from 'react'
 import Logo from '../assets/logo.svg'
 import { SidebarContext } from '../pages/dashboard/Dashboard'
+import { NavLink } from 'react-router-dom'
 
 type Properties = {
     className?: string,
@@ -9,7 +10,6 @@ type Properties = {
         imgSrc: string,
         navText: string,
         navUrl: string,
-        active: boolean
     }>,
     active: boolean
 }
@@ -24,10 +24,18 @@ const Sidebar = ({ className, navItems, active }: Properties) => {
                 <img src={Logo} alt="logo" />
 
                 <ul className="flex flex-col mt-6 md:mt-8 2xl:mt-10">
-                    {navItems.map((navItem) => <li key={navItem.id} className={`px-1.5 py-1 md:px-2 2xl:px-4 md:py-2.5 2xl:py-3.5 flex items-center gap-2 cursor-pointer text-xs md:text-sm text-[#697598] hover:text-[#4F4F4F] border-4 md:border-8 border-white hover:border-[#F5F6FA] rounded-[2rem] ${navItem.active && 'text-[#4F4F4F] border-[#F5F6FA]'}`}>
-                        <span><img src={navItem.imgSrc} /></span>
-                        <span className="">{navItem.navText}</span>
-                    </li>)}
+                    {navItems.map((navItem) => (
+                        <NavLink
+                            to={navItem.navUrl}
+                            key={navItem.id}
+                            className={({ isActive, isPending }) => `px-1.5 py-1 md:px-2 2xl:px-4 md:py-2.5 2xl:py-3.5 flex items-center gap-2 cursor-pointer text-xs md:text-sm text-[#697598] hover:text-[#4F4F4F] border-4 md:border-8 border-white hover:border-[#F5F6FA] rounded-[2rem] ${isActive ? "!text-[#4F4F4F] !border-[#F5F6FA]" : ""} ${isPending ? "" : ""}`}
+                        >
+                            <span>
+                                <img src={navItem.imgSrc} alt={navItem.navText} />
+                            </span>
+                            <span>{navItem.navText}</span>
+                        </NavLink>
+                    ))}
                 </ul>
             </div>
 
@@ -41,10 +49,18 @@ const Sidebar = ({ className, navItems, active }: Properties) => {
                 <img src={Logo} alt="logo" />
 
                 <ul className="flex flex-col mt-6 md:mt-8 2xl:mt-10">
-                    {navItems.map((navItem) => <li key={navItem.id} className={`px-1.5 py-1 md:px-2 2xl:px-4 md:py-2.5 2xl:py-3.5 flex items-center gap-2 cursor-pointer text-xs md:text-sm text-[#697598] hover:text-[#4F4F4F] border-4 md:border-8 border-white hover:border-[#F5F6FA] rounded-[2rem] ${navItem.active && 'text-[#4F4F4F] border-[#F5F6FA]'}`}>
-                        <span><img src={navItem.imgSrc} /></span>
-                        <span className="">{navItem.navText}</span>
-                    </li>)}
+                    {navItems.map((navItem) => (
+                        <NavLink
+                            to={navItem.navUrl}
+                            key={navItem.id}
+                            className={({ isActive, isPending }) => `px-1.5 py-1 md:px-2 2xl:px-4 md:py-2.5 2xl:py-3.5 flex items-center gap-2 cursor-pointer text-xs md:text-sm text-[#697598] hover:text-[#4F4F4F] border-4 md:border-8 border-white hover:border-[#F5F6FA] rounded-[2rem] ${isActive ? "!text-[#4F4F4F] !border-[#F5F6FA]" : ""} ${isPending ? "" : ""}`}
+                        >
+                            <span>
+                                <img src={navItem.imgSrc} alt={navItem.navText} />
+                            </span>
+                            <span>{navItem.navText}</span>
+                        </NavLink>
+                    ))}
                 </ul>
             </div>
         </>
